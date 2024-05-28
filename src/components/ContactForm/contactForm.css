@@ -1,0 +1,18 @@
+/** @format */
+
+.container2 {
+	display: flex;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.top-button {
+	display: flex;
+	gap: 32px;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
