@@ -5,7 +5,7 @@ import './navigation.css'
 
 const Navigation = () => {
 	return (
-		<nav>
+		<nav className="container">
 			<div className="logo">
 				<img src="/images/logo.png" alt="logo" />
 			</div>
