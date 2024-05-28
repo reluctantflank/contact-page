@@ -1,7 +1,7 @@
 /** @format */
 
 import "./App.css";
-import Navigation from "./components/Navigation";
+import Navigation from "./components/Navigation/Navigation";
 
 function App() {
 	return (

@@ -1,12 +1,13 @@
 /** @format */
 
 import React from "react";
+import './navigation.css'
 
 const Navigation = () => {
 	return (
 		<nav>
-			<div>
-				<img src="/images/logo" alt="logo" />
+			<div className="logo">
+				<img src="/images/logo.png" alt="logo" />
 			</div>
 			<ul>
 				<li>Home</li>
