@@ -2,6 +2,7 @@
 
 .primary-btn {
 	padding: 18px 10px;
+
 	background-color: black;
 	color: white;
 	min-width: 220px;
@@ -12,6 +13,8 @@
 	font-size: 16px;
 	justify-content: center;
 	cursor: pointer;
+	width: 220px;
+	height: 44px;
 }
 
 .outline-btn {
@@ -28,4 +31,6 @@
 	width: 100%;
 	background-color: white;
 	cursor: pointer;
+	width: 472px;
+	height: 44px;
 }

@@ -4,6 +4,8 @@
 	display: flex;
 	max-width: 1000px;
 	margin: 0 auto;
+	margin-top: 20px;
+	align-items: end;
 }
 
 .top-button {
@@ -15,4 +17,32 @@
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
+}
+
+.contact-form form {
+	display: flex;
+	gap: 20px;
+	flex-direction: column;
+	padding-bottom: 20px;
+}
+
+.form-control {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	position: relative;
+	font-size: 14px;
+}
+
+.form-control input {
+	height: 40px;
+	padding: 0 8px;
+}
+
+.form-control label {
+	position: absolute;
+	top: -12px;
+	left: 10px;
+	background-color: white;
+	padding: 0 10px;
 }

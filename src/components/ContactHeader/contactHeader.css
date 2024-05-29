@@ -7,4 +7,10 @@ h1 {
 
 p {
 	font-weight: 500;
+	max-width: 80%;
+}
+
+.contact-section {
+	max-width: 1000px;
+	margin: 0 auto;
 }

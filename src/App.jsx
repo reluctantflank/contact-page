@@ -9,9 +9,10 @@ function App() {
 	return (
 		<>
 			<Navigation />
-			<ContactHeader />
-			<ContactForm/>
-			
+			<main className="main-container">
+				<ContactHeader />
+				<ContactForm />
+			</main>
 		</>
 	);
 }

@@ -5,10 +5,12 @@ import { MdMessage } from "react-icons/md";
 import "./button.css";
 
 const Button = (props) => {
-	const { isOutline, icon, text } = props;
+	const { onClick, isOutline, icon, text } = props;
 
 	return (
-		<button className={isOutline ? "outline-btn" : "primary-btn"}>
+		<button
+			onClick={onClick}
+			className={isOutline ? "outline-btn" : "primary-btn"}>
 			{icon}
 			{text}
 		</button>

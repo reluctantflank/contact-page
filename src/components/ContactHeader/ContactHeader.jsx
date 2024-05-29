@@ -5,7 +5,7 @@ import "./contactHeader.css";
 
 const ContactHeader = () => {
 	return (
-		<div  className="container">
+		<div  className="contact-section">
 			<h1>CONTACT US</h1>
 			<p>
 				LET’S CONNECT: WE’RE HERE TO HELP, AND WE’D LOVE TO HEAR FROM YOU!
